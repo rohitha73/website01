@@ -1,0 +1,66 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: bisque;
+  }
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span{
+    color: rgb(255, 0, 43);
+}
+
+.main{
+    text-align: center;
+}
+.img{
+    height: 25rem;
+}
+
+.container01{
+    margin: 50px;
+    display: flex;
+}
+
+.card{
+    width: 48%;
+    margin: 20px;
+    background-color: azure;
+    padding: 20px;
+}
+.bird{
+    float: left;
+    height: 150px;
+    margin: 20px;
+}
+.cartoon{
+    float: right;
+    height: 150px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    background-color: tomato;
+}
+.container02{
+    margin: 70px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(243, 150, 29);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: black;
+}
+
