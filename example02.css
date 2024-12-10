@@ -1,0 +1,49 @@
+.small-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+.sitem{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li{
+    list-style-type: none;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px;
+    font-size: 2rem;
+    gap: 50px;
+    justify-content: end;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 700px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.cards{
+    background-color: rgb(192, 247, 247);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 50px;
+}
+.card1{
+    grid-column: span 3;
+}
